@@ -66,7 +66,7 @@
       not to break the build -->
     <illegaltransitivereportonly>true</illegaltransitivereportonly>
   </properties>
-  
+
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -227,6 +227,12 @@
 
     <dependency>
       <groupId>org.jboss.errai</groupId>
+      <artifactId>errai-jaxrs-provider</artifactId>
+      <version>${version.org.jboss.errai}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jboss.errai</groupId>
       <artifactId>errai-data-binding</artifactId>
       <version>${version.org.jboss.errai}</version>
       <scope>provided</scope>
@@ -320,6 +326,18 @@
 
     <dependency>
       <groupId>org.kie.workbench.forms</groupId>
+      <artifactId>kie-wb-common-forms-common-rendering-shared</artifactId>
+      <version>${version.org.kie}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.kie.workbench.forms</groupId>
+      <artifactId>kie-wb-common-forms-common-rendering-client</artifactId>
+      <version>${version.org.kie}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.kie.workbench.forms</groupId>
       <artifactId>kie-wb-common-forms-crud-component</artifactId>
       <version>${version.org.kie}</version>
       <scope>provided</scope>
@@ -377,6 +395,8 @@
           <generateJsInteropExports>true</generateJsInteropExports>
           <compileSourcesArtifacts>
             <!-- LiveSpark -->
+            <compileSourcesArtifact>org.kie.workbench.forms:kie-wb-common-forms-common-rendering-shared</compileSourcesArtifact>
+            <compileSourcesArtifact>org.kie.workbench.forms:kie-wb-common-forms-common-rendering-client</compileSourcesArtifact>
             <compileSourcesArtifact>org.kie.workbench.forms:kie-wb-common-forms-crud-component</compileSourcesArtifact>
             <compileSourcesArtifact>org.livespark:livespark-form-modeler-rendering-api</compileSourcesArtifact>
             <compileSourcesArtifact>org.livespark:livespark-app-flow-api</compileSourcesArtifact>
