@@ -3,40 +3,22 @@
 
   <scan>
     <!-- These exclusions were added by Errai to avoid deploying client-side classes to the server -->
-    <exclude name = "demo.client.local.AddressListView" />
-    <exclude name = "demo.client.local.UserListView$2" />
-    <exclude name = "demo.client.local.AddressFlowProducer$3" />
-    <exclude name = "demo.client.local.UserFlowProducer$2" />
-    <exclude name = "demo.client.local.AddressListView$3" />
-    <exclude name = "demo.client.local.UserListView$6" />
-    <exclude name = "demo.client.local.UserListView" />
-    <exclude name = "demo.client.local.AddressListView$2" />
-    <exclude name = "demo.client.local.UserFormView$User_addressSubFormModelAdapter" />
-    <exclude name = "demo.client.local.UserListView$5" />
-    <exclude name = "demo.client.local.UserFormView" />
-    <exclude name = "demo.client.local.UserListView$1" />
-    <exclude name = "demo.client.local.AddressListView$5" />
+    <exclude name = "demo.client.local.builtin.BuiltinFlowPartRegistrar$2" />
+    <exclude name = "demo.client.local.builtin.BuiltinFlowPartRegistrar$3" />
+    <exclude name = "demo.client.local.builtin.BuiltinFlowPartRegistrar$1" />
     <exclude name = "demo.client.local.builtin.Util" />
     <exclude name = "demo.client.local.builtin.FlowSelection" />
+    <exclude name = "demo.client.local.builtin.LoginComponent" />
+    <exclude name = "demo.client.local.builtin.BuiltinFlowPartRegistrar$6" />
+    <exclude name = "demo.client.local.builtin.BuiltinFlowPartRegistrar$4" />
     <exclude name = "demo.client.local.builtin.FlowPage$1" />
+    <exclude name = "demo.client.local.builtin.SingleTextInputComponent" />
+    <exclude name = "demo.client.local.builtin.BuiltinFlowsPage" />
+    <exclude name = "demo.client.local.builtin.BuiltinFlowPartRegistrar$5" />
+    <exclude name = "demo.client.local.builtin.BuiltinFlowPartRegistrar" />
     <exclude name = "demo.client.local.builtin.MainPage" />
     <exclude name = "demo.client.local.builtin.FlowPage$2" />
     <exclude name = "demo.client.local.builtin.FlowPage" />
-    <exclude name = "demo.client.local.UserFlowProducer$3" />
-    <exclude name = "demo.client.local.AddressListView$1" />
-    <exclude name = "demo.client.local.UserFlowProducer$4" />
-    <exclude name = "demo.client.local.UserFlowProducer$1" />
-    <exclude name = "demo.client.local.AddressFlowProducer$2" />
-    <exclude name = "demo.client.local.AddressListView$6" />
-    <exclude name = "demo.client.local.UserListView$3" />
-    <exclude name = "demo.client.local.UserFormView$User_adressesMultipleSubFormModelAdapter" />
-    <exclude name = "demo.client.local.AddressFlowProducer" />
-    <exclude name = "demo.client.local.UserListView$4" />
-    <exclude name = "demo.client.local.AddressFlowProducer$1" />
-    <exclude name = "demo.client.local.AddressFlowProducer$4" />
-    <exclude name = "demo.client.local.UserFlowProducer" />
-    <exclude name = "demo.client.local.AddressListView$4" />
-    <exclude name = "demo.client.local.AddressFormView" />
     <!-- End of Errai exclusions -->
   </scan>
 </beans>

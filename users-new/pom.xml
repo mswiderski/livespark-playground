@@ -353,7 +353,6 @@
       <groupId>org.livespark</groupId>
       <artifactId>livespark-app-flow-client</artifactId>
       <version>${version.org.livespark}</version>
-      <scope>provided</scope>
     </dependency>
 
   </dependencies>
@@ -400,7 +399,6 @@
             <compileSourcesArtifact>org.kie.workbench.forms:kie-wb-common-forms-crud-component</compileSourcesArtifact>
             <compileSourcesArtifact>org.livespark:livespark-form-modeler-rendering-api</compileSourcesArtifact>
             <compileSourcesArtifact>org.livespark:livespark-app-flow-api</compileSourcesArtifact>
-            <compileSourcesArtifact>org.livespark:livespark-app-flow-cdi-api</compileSourcesArtifact>
             <compileSourcesArtifact>org.livespark:livespark-app-flow-client</compileSourcesArtifact>
           </compileSourcesArtifacts>
         </configuration>

@@ -4,6 +4,7 @@ import javax.annotation.PostConstruct;
 import javax.enterprise.context.Dependent;
 import javax.inject.Inject;
 
+import org.jboss.errai.common.client.dom.Anchor;
 import org.jboss.errai.common.client.dom.Document;
 import org.jboss.errai.common.client.dom.Option;
 import org.jboss.errai.common.client.dom.Select;
@@ -26,6 +27,11 @@ public class MainPage {
     @Inject
     @DataField
     private Select flows;
+
+    @Inject
+    @DataField
+    @org.jboss.errai.ui.nav.client.local.api.TransitionTo( BuiltinFlowsPage.class )
+    private Anchor builtin;
 
     @Inject
     private Document doc;
