@@ -356,6 +356,12 @@
       <scope>provided</scope>
     </dependency>
 
+    <dependency>
+      <groupId>org.kie.server</groupId>
+      <artifactId>kie-server-client</artifactId>
+      <version>${version.org.kie}</version>
+    </dependency>
+
   </dependencies>
   <build>
   <!--finalName>${project.artifactId}</finalNamei-->
