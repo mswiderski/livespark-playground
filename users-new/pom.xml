@@ -362,6 +362,12 @@
       <version>${version.org.kie}</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.jbpm.demo</groupId>
+      <artifactId>livespark-kie</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+
   </dependencies>
   <build>
   <!--finalName>${project.artifactId}</finalNamei-->
